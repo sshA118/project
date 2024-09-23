@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <title>TRAVEL GO</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__burger">
+            <img src="./assets/img/burger.svg" alt="burger">
+        </div>
+        <div class="header__wrap">
+            <div class="header__logo">
+                <img class="header__logo-img" src="./assets/img/logo.svg" alt="logo" >
+                <h2 class="header__title">
+                    TRAVEL <br> GO
+                </h2>
+            </div>
+            <div class="header__menu">
+                <div class="header__menu__a">
+                    <img class="header__menu-img" src="./assets/img/home.svg" alt="home">
+                    <a class="header__menu__a-class"  href="#">
+                    Главная
+                </a>
+                </div>
+                <div class="header__menu__a">
+                    <img class="header__menu-img" src="./assets/img/statia.svg" alt="statia">
+                    <a class="header__menu__a-class" href="#article_nav">
+                  Статьи
+                </a>
+                </div>
+                <div class="header__menu__a">
+                    <img class="header__menu-img" src="./assets/img/book.svg" alt="book">
+                    <a class="header__menu__a-class" href="./katalog.html" >
+                        Каталог
+                </a>
+                </div>
+                <div class="header__menu__a">
+                    <img class="header__menu-img" src="./assets/img/person.svg" alt="login">
+                    <a class="header__menu__a-class" href="./login/login.html">
+                    Вход
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="main">
+    <div class="container">
+        <div class="main__wrap">
+           
+            <div class="main__text">
+                <h1 class="main__title">
+                    Устрой путешествие <br>в несколько кликов!
+                </h1>
+                <button class="main__btn" >
+                    Перейти дальше
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="katalog">
+    <div class="container">
+        <div class="katalog__wrap">
+            <div class="katalog__title">
+                <img class="katalog__title-img" src="./assets/img/katalog.svg" alt="katalog">
+                <h2 class="katalog__title-h2 ">
+                    Каталог
+                </h2>
+            </div>
+            <div class="katalog__filter">
+                <button class="katalog__btn" onclick="document.location='./katalog.html'" >
+                    Страна
+                    <img class="katalog__btn-img" src="./assets/img/vector.svg" alt="vector">
+                </button>
+                <button class="katalog__btn">
+                    Город вылета
+                    <img class="katalog__btn-img" src="./assets/img/vector.svg" alt="vector">
+                </button>
+                <button class="katalog__btn">
+                    Дата вылета
+                    <img class="katalog__btn-img" src="./assets/img/vector.svg" alt="vector">
+                </button>
+                <button class="katalog__btn">
+                    Бюджет
+                    <img class="katalog__btn-img" src="./assets/img/vector.svg" alt="vector">
+                </button>
+                <button class="katalog__btn">
+                    Фильтры
+                    <img class="katalog__btn-img" src="./assets/img/filter.svg" alt="filter">
+                </button>
+            </div>
+            <div class="katalog__list">
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/egipet.jpg" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Египет
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет: 25 сентября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        25,999₽
+                    </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/Italy.jpg" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Италия
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет: 2 октября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        49,999₽ 
+                    </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/frans.jpg" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Франция
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет: 12 октября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        45,999₽ 
+                    </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/turcia.webp" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Турция
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет:  31 сентября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        32,999₽ 
+                    </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/sweden.jpg" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Швеция
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет:   25 сентября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        33,999₽ 
+                    </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/nider.jpg" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Нидерланды
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет:   5 октября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        65,999₽                     </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/norveg.webp" alt="egipet" >
+                    <h3 class="katalog__list__card-h3">
+                        Норвегия
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет:  27 октября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        57,999₽ 
+                    </button>
+                </div>
+                <div class="katalog__list__card">
+                    <img class="katalog__list__card-img" src="./assets/img/brit.jpg" alt="egipet" >
+                    <h3 class="katalog__list__card-h3 ">
+                        ВКБ
+                    </h3>
+                    <p class="katalog__list__card-p">
+                        Город вылета: <br>
+                          Москва 
+                    </p>
+                    <p class="katalog__list__card-p2">
+                        Вылет:  31 сентября
+                    </p>
+                    <button class="katalog__list__card-btn btn">
+                        49,999₽ 
+                    </button>
+                </div>
+            </div>
+            <div class="katalog__dopInfo">
+                <a class="katalog__dopInfo-h3" href="./katalog.html">Еще </a> 
+            </div>
+        </div>
+    </div>
+</section>
+<section class="article">
+    <div class="container">
+        <div class="article__wrap">
+            <div class="article__title">
+                <h3 class="article__title__h3 " id="article_nav">
+                    Полезные материалы по странам, курортам и городам
+                </h3>
+            </div>
+            <div class="article__box">
+                <div class="article__box__text">
+                    <h4 class="article__box__text__h4">
+                        Где найти кошек в турции?
+                    </h4>
+                    <div class="article__box__mobila">
+                        <img  src="./assets/img/cat_1.png" alt="cat">
+                    </div>
+                    <p class="article__box__text__p">
+                        Тысячи лет назад на Земле появился первый кот. Точно сказать, когда это было, невозможно, но благодаря археологическим раскопкам можно определить место, где появились первые кошк...
+                    </p>
+                </div>
+                <div class="article__box__img">
+                    <img class="article__box__img__1" src="./assets/img/cat_1.png" alt="cat">
+                </div>
+            </div>
+            <div class="article__btn">
+                <button onclick="document.location='./article.html'" class="article__btn__1 btn">
+                    Перейти на статью
+                </button>
+            </div>
+        </div>
+        <div class="article__wrap">
+            <div class="article__box">
+                <div class="article__box__text">
+                    <h4 class="article__box__text__h4">
+                        ТОП-3 турецких курортов
+                    </h4>
+                    <div class="article__box__mobila">
+                        <img  src="./assets/img/turcia_art1.png" alt="resorts">
+                    </div>
+                    <p class="article__box__text__p">
+                        И чем на них можно заняться</p>
+                </div>
+                <div class="article__box__img">
+                    <img class="article__box__img__1" src="./assets/img/turcia_art1.png" alt="resorts">
+                </div>
+            </div>
+            <div class="article__btn">
+                <button class="article__btn__1 btn" onclick="document.location='./resorts.html'">
+                    Перейти на статью
+                </button>
+            </div>
+        </div>
+        <div class="article__wrap">
+            <div class="article__box">
+                <div class="article__box__text">
+                    <h4 class="article__box__text__h4">
+                        ТОП-3 отелей Турции
+                    </h4>
+                    <div class="article__box__mobila">
+                        <img  src="./assets/img/oteli_turcia.png" alt="cat">
+                    </div>
+                    <p class="article__box__text__p">
+                        Делимся самыми популярными отелями Турции в этом сезоне
+                    </p>
+                </div>
+                <div class="article__box__img">
+                    <img class="article__box__img__1" src="./assets/img/oteli_turcia.png" alt="cat">
+                </div>
+            </div>
+            <div class="article__btn">
+                <button class="article__btn__1 btn" onclick="document.location='./hotels.html'">
+                    Перейти на статью
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="info">
+    <div class="container">
+        <div class="info-title">
+            <h2>Почему нам доверяют миллионы <br> туристов и турагентов</h2>
+        </div>
+        <div class="info-text">
+            <img src="./assets/img/lupa.svg" alt="lupa">
+            <p>Глобальный и удобный поиск <br> Туры от 90+ туроператоров, понятные фильтры,<br> быстрый поиск под любые пожелания.</p>
+        </div>
+        <div class="info-text">
+            <img src="./assets/img/rubl.svg" alt="rubl">
+            <p>Честная цена<br>Наш поиск показывает все доплаты сразу, никаких скрытых процентов и переплат, только реальные цены от туроператоров.</p>
+        </div>
+        <div class="info-text">
+            <img src="./assets/img/zvezda.svg" alt="zvezda">
+            <p>Надежность и доверие<br>
+                TRAVEL GO - крупнейший партнер турагентств и туроператоров по всей стране, нашим поиском пользуются профессионалы турбизнеса и обычные туристы более 5 лет.</p>
+        </div>
+        <div class="info-text">
+            <img src="./assets/img/freedom.svg" alt="freedom">
+            <p>Свобода выбора<br>
+                Большая проверенная база турагентств для бронирования и оплаты туров именно там, где вам захочется.</p>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="footer-box footer-box-logo">
+            <img src="./assets/img/logo.svg" alt="logo">
+            <h2>TRAVEL <br> GO</h2>
+        </div>
+        <div class="footer-box">
+            <p>Номера:</p>
+            <p>+79969643029</p>
+            <p>Почта:</p>
+            <p>travelgo@gmail.com</p>
+            <p>Соц.сети</p>
+            <div class="footer-img">
+                <a href="#"><img src="./assets/img/inst.svg" alt="inst"></a>
+                <a href="#"><img src="./assets/img/tg.svg" alt="tg"></a>
+                <a href="#"><img src="./assets/img/whats.svg" alt="whats"></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <p>В случае технических ошибок всегда <br>можете обратиться в тех-поддержку</p>
+            <p>Тех-поддержка работает 24/7</p>
+        </div>
+    </div>
+    <div class="footer-privace">
+        <div class="footer-text">
+            <p>Политика конфиденциальности</p>
+            <p>Условия пользования сайтом</p>
+            <p>Правовая информация</p>
+        </div>
+        <div class="footer-card">
+            <img src="./assets/img/mir.svg" alt="mir">
+            <img src="./assets/img/visa.svg" alt="visa">
+            <img src="./assets/img/mastercad.svg" alt="mastercad">
+        </div>
+    </div>
+</section>
+</body>
+</html>
